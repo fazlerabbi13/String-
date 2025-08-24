@@ -20,11 +20,11 @@ void relationalOperation(string s1, string s2)
 
 int main()
 {
-    string s1("Geeks");
-    string s2("forGeeks");
+    string s1("Hello");
+    string s2("Hello world");
     relationalOperation(s1, s2);
-    string s3("Geeks");
-    string s4("Geeks");
+    string s3("Fazle");
+    string s4("Rabbi");
     relationalOperation(s3, s4);
     return 0;
 }
